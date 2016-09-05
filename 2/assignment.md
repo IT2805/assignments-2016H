@@ -30,7 +30,7 @@ Update the ```ìmg``` element to point to the new location of the image of you.
 Include the empty ````style.css```` file inside the ````head```` element of your ````about.html```` file.
 
 ## Part 3: Start Styling (10%)
-Now for the fun part! Add rules to your CSS file so that these criteria are met:
+Now for the fun part! Add rules to your ````style.css```` file so that these criteria are met:
 
 - The headers must have a web safe<sup>[1](#websafe-fonts)</sup> font that is different from the default.
 - Change the background color of the page. Make sure to consider readability when choosing font and colors.
