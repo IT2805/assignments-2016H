@@ -5,7 +5,7 @@ Note: You must have completed the first assignment, including the questions, in 
 In this assignment you are going to style the website you created in the previous exercise.
 
 ## Part 1: Housekeeping (10%)
-Considering the vast amount of websites on the Internet it is important to differentiate yourself. One way of doing that is to change the style of your superhero website to make it more appealing. 
+Considering the vast amount of websites on the Internet it is important to differentiate yourself. One way of doing that is to change the style of your website to make it more appealing. 
 
 To prevent that the assets powering your website grows into a big ball of mud, some house keeping is needed. To keep things neatly packaged you are going to create two directories: ````css```` and ````img````. 
 
@@ -16,16 +16,16 @@ The directory structure of your website will now look like the following.
 ````bash
 .
 ├── css
-│   └── style.css
+│   └── style.css
 └── about.html
 └── img
-    └── superhero.jpg
+    └── me.jpg
 ````
 
 ## Part 2: Update (10%)
 Now that your website directory structure is sorted out it is time to update your website. 
 
-Update the ```ìmg``` element to point to the new location of the picture of your superhero.
+Update the ```ìmg``` element to point to the new location of the image of you.
 
 Include the empty ````style.css```` file inside the ````head```` element of your ````about.html```` file.
 
@@ -39,7 +39,7 @@ Now for the fun part! Add rules to your CSS file so that these criteria are met:
 - The image must have a border.
 
 ## Part 4: Inline Styling (10%)
-Although considered a bad practice <sup>[1](#inline-bad-practice)</sup>, inlining CSS is not an uncommon way of styling elements on a webpage. Increase the border width around the superhero image by 2 pixels *without* changing any CSS in your ````style.css```` file.
+Although considered a bad practice <sup>[1](#inline-bad-practice)</sup>, inlining CSS is not an uncommon way of styling elements on a webpage. Increase the border width around the image by 2 pixels *without* changing any CSS in your ````style.css```` file.
 
 ## Part 5: More Housekeeping (20%)
 Attached you will find a ````zip```` archive containing an article formatted in HTML. Extract the files to your assignment directory and organize them so that your assignment directory is structured like this:
@@ -47,14 +47,14 @@ Attached you will find a ````zip```` archive containing an article formatted in 
 ````bash
 .
 ├── css
-│   ├── article.css
-│   └── style.css
+│   ├── article.css
+│   └── style.css
 ├── about.html
 ├── article.html
 └── img
-    └── cup-icon.svg
-    └── superhero.png
-    └── te.png
+    └── cup-icon.svg
+    └── me.jpg
+    └── te.png
 ````
 
 Upon opening ````article.html```` you will quickly notice that the Gods of crappy web design have smote you. Your job is to fix the article.
