@@ -1,6 +1,6 @@
 # Assignment 2: HTML continued, links and CSS introduction
 
-Note: If you have not completed assignment 1, go ahead and do it now, as you need it for this assignment. Your code for assignment 1 will not be graded.
+Note: If you have not completed assignment 1, go ahead and do it now, as you need it for this assignment. You do not have to submit the code for assignment 1. Your code for assignment 1 will not be graded.
 
 In this assignment you are going to style the website you created in the previous exercise.
 
