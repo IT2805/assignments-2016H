@@ -1,6 +1,6 @@
 # Assignment 2: HTML continued, links and CSS introduction
 
-Note: You must have completed the first assignment, including the questions, in order to complete this assignment. 
+Note: If you have not completed assignment 1, go ahead and do it now, as you need it for this assignment. Your code for assignment 1 will not be graded.
 
 In this assignment you are going to style the website you created in the previous exercise.
 
@@ -16,10 +16,10 @@ The directory structure of your website will now look like the following.
 ````bash
 .
 ├── css
-│   └── style.css
+│   └── style.css
 └── about.html
 └── img
-    └── me.jpg
+    └── me.jpg
 ````
 
 ## Part 2: Update (10%)
@@ -47,14 +47,14 @@ Attached you will find a ````zip```` archive containing an article formatted in 
 ````bash
 .
 ├── css
-│   ├── article.css
-│   └── style.css
+│   ├── article.css
+│   └── style.css
 ├── about.html
 ├── article.html
 └── img
-    └── cup-icon.svg
-    └── me.jpg
-    └── te.png
+    └── cup-icon.svg
+    └── me.jpg
+    └── te.png
 ````
 
 Upon opening ````article.html```` you will quickly notice that the Gods of crappy web design have smote you. Your job is to fix the article.
