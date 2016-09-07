@@ -71,7 +71,7 @@ To put the icing on the cake, so to speak, make the following changes in ````art
 
 - The cover image (of the teapot) must have the same width as the article body.
 - The margin between the title and the byline should be removed.
-- There should be a horisontal line separating the byline and the article body.
+- There should be a horizontal line separating the byline and the article body.
 - The font has to be changed to a font intended for readability: Georgia or Verdana.
 - The width of the article body should only accommodate 65-75 characters.
 - The line-height must be 1.5 (150%).
