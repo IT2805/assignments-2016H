@@ -75,7 +75,7 @@ To put the icing on the cake, so to speak, make the following changes in ````art
 - The font has to be changed to a font intended for readability: Georgia or Verdana.
 - The width of the article body should only accommodate 65-75 characters.
 - The line-height must be 1.5 (150%).
-- The font font size of the article body must be between 18px and 22px.
+- The font size of the article body must be between 18px and 22px.
 - The background color of the entire page must be be light gray.
 - The font color must be dark gray.
 
