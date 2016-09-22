@@ -54,6 +54,6 @@ and (max-device-width : 1024px)  {
 
 
 ## Deliverables
-Note: Include the video files in your submission. 
+Note: Include the mp4 video file in your submission. It is not necessary to include all of the video files.
 
 Submission should be uploaded as a zip file into It’s Learning before the deadline. Submissions are ONLY accepted via Its Learning. We DON’T accept late assignments. Emails or any other messages with late assignments are automatically discarded without further communication
