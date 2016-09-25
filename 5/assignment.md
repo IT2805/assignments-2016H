@@ -26,9 +26,9 @@ You will see the array 'numbers'. Use a `for loop` to go through that array. For
 
 Hint: to check if a number is divisible by another number, use `modulo (%)`. E.g. To check if the number 12 is divisible by 6, you can write `12%6`, which will return 0.
 
-Comment from the author: If a number is divisible by both 3 and 4, either 'eple' or 'kake' can be printed, this is dependent on your implementation.
+Comment from the author: If a number is divisible by both 3 and 5, either 'eple' or 'kake' can be printed, this is dependent on your implementation.
 
-The last step for this task is to add an extra conditional that checks if the number is divisible by both 3 and 5. If it is the word 'eplekake' should be printed out.
+Optional: If you want an extra challenge you can add an extra conditional that checks if the number is divisible by both 3 and 5. If it is the word 'eplekake' should be printed out. This part will not be graded, but is part of the normal test.
 
 ## Part 4: DOM Manipulation (20%)
 What is a page without a title? Well, what is a snake without its head? Pretty darn boring. In stead of simply adding the title in the HTML document, we will manipulate the DOM to add it. Sounds scary? It's not. In your HTML document `index.html`, you will see a `h1` element with the id `title`. Use JavaScript to access this element and add the string ‘Hello, JavaScript’ to it.
@@ -61,19 +61,19 @@ You have not only learned to trigger a function with a button, and update the CS
 ## Part 6: Create Dynamic Webpages (20%)
 Remember when you made an HTML list? Well, now you will populate that list using JavaScript. This way you can easy create dynamic webpages with your hands behind your back (this is not true).
 
-In the HTML document, below `/* Part 5 */`, you will find an empty unordered list with the `id='tech'`. In the JavaScript file, below `/* Part 6 */`, you will find the array technologies.
+In the HTML document, below `<h2>Part 6</h2>`, you will find an empty unordered list with the `id='tech'`. In the JavaScript file, below `/* Part 6 */`, you will find the array technologies.
 
-Loop through the array, and for each element, add it to the list in `technologies.html`.
+Loop through the array, and for each element, add it to that list in `index.html`.
 
-Hint: you have to concatinate strings to combine each element in the array with HTML tags. In JavaScript you use the operator `+` to concatinate strings.  E.g.
-`javascript
+Hint: One way to solve this task is to combine each list element with the HTML tags. You then have to concatinate string. In JavaScript you use the operator `+` to concatinate strings. E.g.:
+```javascript
 const hey = 'Your Name'
 console.log('Hello, ' + hey)
-`
+```
 will give the string
 `Hello, Your Name`.
 
-Another hint: Remember to encapsulate each array element in the list item tag. 
+Another hint: The HTML element to encapsulate each list element is the list item (`<li></li>`) tag. 
 
 ## Deliverables
 Submission should be uploaded as a zip file into It’s Learning before the deadline. Submissions are ONLY accepted via Its Learning. We DON’T accept late assignments. Emails or any other messages with late assignments are automatically discarded without further communication.
