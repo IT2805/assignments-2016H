@@ -65,7 +65,7 @@ In the HTML document, below `<h2>Part 6</h2>`, you will find an empty unordered 
 
 Loop through the array, and for each element, add it to that list in `index.html`.
 
-Hint: One way to solve this task is to combine each list element with the HTML tags. You then have to concatinate string. In JavaScript you use the operator `+` to concatinate strings. E.g.:
+Hint: One way to solve this task is to combine each list element with the HTML tags `<li></li>`. You then have to concatinate string. In JavaScript you use the operator `+` to concatinate strings. E.g.:
 ```javascript
 const hey = 'Your Name'
 console.log('Hello, ' + hey)
@@ -73,7 +73,7 @@ console.log('Hello, ' + hey)
 will give the string
 `Hello, Your Name`.
 
-Another hint: The HTML element to encapsulate each list element is the list item (`<li></li>`) tag. 
+To solve this task, you can also use the JavaScript function `appendChild()`, which you can read about [here](http://www.w3schools.com/jsref/met_node_appendchild.asp). The important part is to create the list dynamically. 
 
 ## Deliverables
 Submission should be uploaded as a zip file into It’s Learning before the deadline. Submissions are ONLY accepted via Its Learning. We DON’T accept late assignments. Emails or any other messages with late assignments are automatically discarded without further communication.
