@@ -35,7 +35,7 @@ Incorrect                  |  Correct
 ![](images/resize-incorrectly.gif) | ![](images/resize-correctly.gif)
 
 ## Part 5: More about Responsive Design (20%)
-Finally you are going to replace the video with a still image (````hovedbygget.png````) using media queries. If the visitor is using a mobile device (resolution width lower than ````940````) the video should be replaced with the image.
+Finally you are going to replace the video with a still image (````hovedbygget.png````) using media queries. If the visitor is using a mobile device (resolution width lower than ````940px````) the video should be replaced with the image.
 
 ## Questions (10%)
 1. Why do mobile phones usually ignore auto play on video elements?
@@ -43,8 +43,8 @@ Finally you are going to replace the video with a still image (````hovedbygget.p
 3. Mention some of the advantages of having a single responsive website instead of dedicated versions like ````m.til.no```` for mobile and ````til.no```` for desktop?
 
 ````css
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
   #logo {
     display: none;    
@@ -52,6 +52,7 @@ and (max-device-width : 1024px)  {
 }
 ````
 
+Deliver the answers as a .txt file together with your other deliverables. 
 
 ## Deliverables
 Note: Include the mp4 video file in your submission. It is not necessary to include all of the video files.

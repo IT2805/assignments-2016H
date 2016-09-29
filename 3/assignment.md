@@ -57,5 +57,7 @@ Use CSS, included as an external stylesheet, to style the list in the following 
 1. What is the difference between ```position: absolute``` and ```position: fixed```?
 2. With CSS3, how do we access the third element within another element?
 
+Deliver the answers as a .txt file together with your other deliverables. 
+
 ## Deliverables
 Submission should be uploaded as a zip file into It’s Learning before the deadline. Submissions are ONLY accepted via Its Learning. We DON’T accept late assignments. Emails or any other messages with late assignments are automatically discarded without further communication
