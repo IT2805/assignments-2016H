@@ -52,7 +52,7 @@ and (max-device-width : 1024px)  {
 }
 ````
 
-Deliver the answers as a .txt file together with your other deliverables. 
+Deliver the answers as a .txt file together with your other deliverables.
 
 ## Deliverables
 Note: Include the mp4 video file in your submission. It is not necessary to include all of the video files.
