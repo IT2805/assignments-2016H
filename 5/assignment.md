@@ -35,7 +35,7 @@ What is a page without a title? Well, what is a snake without its head? Pretty d
 
 As you might have guessed, write your code below `/* Part 4 */`
 
-Hint: you can user `.innerHTML()` to add a value to an element.
+Hint: you can use `.innerHTML` to add a value to an element.
 
 ## Part 5: Use Functions (20%)
 We have manipulated the DOM by adding content to an element. Now we will use JavaScript to change a style attribute of two `divs`.
