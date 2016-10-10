@@ -35,7 +35,7 @@ What is a page without a title? Well, what is a snake without its head? Pretty d
 
 As you might have guessed, write your code below `/* Part 4 */`
 
-Hint: you can use `.innerHTML` to add a value to an element.
+Hint: you can user `.innerHTML()` to add a value to an element.
 
 ## Part 5: Use Functions (20%)
 We have manipulated the DOM by adding content to an element. Now we will use JavaScript to change a style attribute of two `divs`.
@@ -53,6 +53,8 @@ changeDisplay() should change `#magic`'s `display` attribute to `none`.
 changeVisibility() should change `#magic`'s `visibility` attribute to `hidden`, and the `display` attribute to `block`.
 
 reset() should set `#magic`'s `display` and `visibility` attributes to their default values, that is `block` and `visible`, respectively.
+
+You can make changes to the HTML document if you need to do so.
 
 Now open your webpage and look at the magic. If you have done it correctly, the div with number 1 should be removed from the document flow when you press the button 'display: none' and be invisible (but take up space in the document) when you press the 'visibility: hidden' button.
 
@@ -73,7 +75,7 @@ console.log('Hello, ' + hey)
 will give the string
 `Hello, Your Name`.
 
-To solve this task, you can also use the JavaScript function `appendChild()`, which you can read about [here](http://www.w3schools.com/jsref/met_node_appendchild.asp). The important part is to create the list dynamically. 
+To solve this task, you can also use the JavaScript function `appendChild()`, which you can read about [here](http://www.w3schools.com/jsref/met_node_appendchild.asp). The important part is to create the list dynamically.
 
 ## Deliverables
 Submission should be uploaded as a zip file into It’s Learning before the deadline. Submissions are ONLY accepted via Its Learning. We DON’T accept late assignments. Emails or any other messages with late assignments are automatically discarded without further communication.
