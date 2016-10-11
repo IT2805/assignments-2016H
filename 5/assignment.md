@@ -22,7 +22,7 @@ You can check the result by opening the developer console in your web browser.
 ## Part 3: Combine the `for loop` with the `if statement` (20%)
 Now you will implement a simplified version of a common interview test, combining the `for loop` with an `if statement`. Write your code bellow `/* Part 3 */`.
 
-You will see the array 'numbers'. Use a `for loop` to go through that array. For each element in the array, print the number to the console using console.log. If the number is divisible by 3, instead of the number print the string 'eple' to the console. Should the number be divisible by 5, print the string 'kake' to the console in stead of the number.
+You will see the array 'numbers'. Use a `for loop` to go through that array. For each element in the array, print the number to the console using console.log. If the number is divisible by 3, instead of the number print the string 'eple' to the console. Should the number be divisible by 5, print the string 'kake' to the console instead of the number.
 
 Hint: to check if a number is divisible by another number, use `modulo (%)`. E.g. To check if the number 12 is divisible by 6, you can write `12%6`, which will return 0.
 
@@ -31,7 +31,7 @@ Comment from the author: If a number is divisible by both 3 and 5, either 'eple'
 Optional: If you want an extra challenge you can add an extra conditional that checks if the number is divisible by both 3 and 5. If it is the word 'eplekake' should be printed out. This part will not be graded, but is part of the normal test.
 
 ## Part 4: DOM Manipulation (20%)
-What is a page without a title? Well, what is a snake without its head? Pretty darn boring. In stead of simply adding the title in the HTML document, we will manipulate the DOM to add it. Sounds scary? It's not. In your HTML document `index.html`, you will see a `h1` element with the id `title`. Use JavaScript to access this element and add the string ‘Hello, JavaScript’ to it.
+What is a page without a title? Well, what is a snake without its head? Pretty darn boring. Instead of simply adding the title in the HTML document, we will manipulate the DOM to add it. Sounds scary? It's not. In your HTML document `index.html`, you will see a `h1` element with the id `title`. Use JavaScript to access this element and add the string ‘Hello, JavaScript’ to it.
 
 As you might have guessed, write your code below `/* Part 4 */`
 
@@ -61,7 +61,7 @@ Now open your webpage and look at the magic. If you have done it correctly, the 
 You have not only learned to trigger a function with a button, and update the CSS attribute of an element; but you have also learned the difference between `visibility: hidden` and `display: none`. I'm glad you got out of bed today to experience this!
 
 ## Part 6: Create Dynamic Webpages (20%)
-Remember when you made an HTML list? Well, now you will populate that list using JavaScript. This way you can easy create dynamic webpages with your hands behind your back (this is not true).
+Remember when you made an HTML list? Well, now you will populate that list using JavaScript. This way you can easily create dynamic webpages with your hands behind your back (this is not true).
 
 In the HTML document, below `<h2>Part 6</h2>`, you will find an empty unordered list with the `id='tech'`. In the JavaScript file, below `/* Part 6 */`, you will find the array technologies.
 
