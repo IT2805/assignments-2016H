@@ -55,7 +55,7 @@ Note that a disabled form element is an element that can not have its value chan
 Now that all the form elements are in place it is time to calculate how much the superhero must pay in taxes! The following formula calculates how much tax a superhero has to pay given his or her income and wealth.
 
 ````
-  tax(income, wealth) = (0.33 * income) + (0.20 * wealth)
+  tax(income, wealth) = (0.35 * income) + (0.25 * wealth)
 ````
 
 When a superhero changes the income or wealth form fields, the value of the disabled tax field should be updated to the result of the above formula.
