@@ -2,7 +2,7 @@
 
 No one is above the law, particularaly not those who enforce it. This is especially true when it comes to tax law. In this exercise you are going to create a website that will enable superheroes to submit their tax returns.
 
-Due to missing form validation support for certain fields we will only grade your assignment using Chrome (version 53). 
+**Due to missing form validation support for certain fields we will only grade your assignment using Chrome (version 53).**
 
 ## Part 1: Create a Form (15%)
 
@@ -10,17 +10,19 @@ Please note that this exercise has to be completed without Javascript.
 
 Prior to submitting tax returns a superhero must provide some personalia along with information regarding his or her superpower. Modify the empty form in ````index.html```` to include fields with appropriate input types and labels given the following questions.
 
-| Label                  | Name         | Description                         | Example          |
-|------------------------|--------------|-------------------------------------|------------------|
-| Real name              | name         | A string of alphabetical characters | Peter Parker     |
-| Gender                 | gender       | Either "male" or "female"           | Male             |
-| E-mail                 | email        | An e-mail address                   | spinning@web.com |
-| Birthdate              | birthdate    | YYYY-MM-DD prior to 1988            | 1984-12-28       |
-| Hero name              | hero         | A string of characters              | Spider-Man       |
-| Do you wear spandex?   | spandex      | A boolean                           | True             |
-| Strength               | strength     | Integer between 1 and 10            | 6                |
-| Speed                  | speed        | Integer between 1 and 10            | 4                |
-| Intelligence           | intelligence | Integer between 1 and 10            | 8                |
+| Label                  | Name         | Description                          | Example          |
+|------------------------|--------------|--------------------------------------|------------------|
+| Real name              | name         | A string of alphabetical characters  | Peter Parker     |
+| Gender                 | gender       | Either "male" or "female"            | Male             |
+| E-mail                 | email        | An e-mail address                    | spinning@web.com |
+| Birthdate              | birthdate    | YYYY-MM-DD prior to 1988             | 1984-12-28       |
+| Hero name              | hero         | A string of characters               | Spider-Man       |
+| Do you wear spandex?   | spandex      | A boolean                            | True             |
+| Strength               | strength     | Integer between 1 and 10 (inclusive) | 10               |
+| Speed                  | speed        | Integer between 1 and 10 (inclusive) | 1                |
+| Intelligence           | intelligence | Integer between 1 and 10 (inclusive) | 8                |
+
+The "Description" and "Example" columns are only intended for you as the developer, they do not need to be present in the form.
 
 Finally, a button saying "Submit tax form" must be located at the end of the form.
 
