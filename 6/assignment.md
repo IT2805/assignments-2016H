@@ -15,7 +15,7 @@ Prior to submitting tax returns a superhero must provide some personalia along w
 | Real name              | name         | A string of alphabetical characters  | Peter Parker     |
 | Gender                 | gender       | Either "male" or "female"            | Male             |
 | E-mail                 | email        | An e-mail address                    | spinning@web.com |
-| Birthdate              | birthdate    | YYYY-MM-DD prior to 1988             | 1984-12-28       |
+| Birthdate              | birthdate    | DD.MM.YYYY prior to 1988             | 28.12.1984       |
 | Hero name              | hero         | A string of characters               | Spider-Man       |
 | Do you wear spandex?   | spandex      | A boolean                            | True             |
 | Strength               | strength     | Integer between 1 and 10 (inclusive) | 10               |
