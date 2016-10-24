@@ -16,20 +16,20 @@ Connect your HTML page with the JavaScript file. The rest of the task should be 
 ## Part 2: Implementing Functionalities (20%)
 Now we (read: you) will start to implement some functionality.
 
-When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript functions named "addTask()" that does this.
+When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript function named "addTask()" that does this. Place the newest task on the top of the list.
 
-Hint: Use eventlisteners to listen on button clicks.  
+Hint: Use eventlisteners to listen on button clicks.
 Hinter: If you want to remove the list bullet, you can do so using CSS.  
-Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.  
+Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.
 
 ## Part 3: Storing Users' Activities (20%)
-Instead of just showing the tasks in the DOM, we also want to store them as an object, so that we can make changes to a task.
+Instead of just showing the tasks in the DOM, we also want to store them as an object.
 
-In `todo.js` you should create an empty list called `tasks`. Then expand your function "addTask()" so that it adds a task object to the list. The object should consist of the attributes:
+Create an empty list in `todo.js` called `tasks`. Then expand your function "addTask()" so that it adds a task object to the list. The object should consist of the attributes:
 * timestamp
 * task
 
-The timestamp could be the number of milliseconds between 1 January 1970 00:00:00 UTC and now (i.e. use the JavaScript Date object). The task should be a string.
+The timestamp could be the number of milliseconds between 1 January 1970 00:00:00 UTC and now (i.e. use the JavaScript Date object), or any other unique identifier using the Date object. The task should be a string.
 
 ## Part 4: Adding more Functionalities (25%)
 If the user checks the checkbox, the following should happen:
