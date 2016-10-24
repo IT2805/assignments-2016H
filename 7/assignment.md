@@ -31,6 +31,8 @@ Create an empty list in `todo.js` called `tasks`. Then expand your function "add
 
 The timestamp could be the number of milliseconds between 1 January 1970 00:00:00 UTC and now (i.e. use the JavaScript Date object), or any other unique identifier using the Date object. The task should be a string.
 
+You can check that this works by using console.log on the list 'tasks'.
+
 ## Part 4: Adding more Functionalities (25%)
 If the user checks the checkbox, the following should happen:
 * the task should have a line through it
