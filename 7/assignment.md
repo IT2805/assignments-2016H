@@ -16,7 +16,7 @@ Connect your HTML page with the JavaScript file. The rest of the task should be 
 ## Part 2: Implementing Functionalities (20%)
 Now we (read: you) will start to implement some functionality.
 
-When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript functions named "addTaks()" that does this. Place the newest task on the top of the list.
+When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript function named "addTaks()" that does this. Place the newest task on the top of the list.
 
 Hint: Use eventlisteners to listen on button clicks.
 Hinter: If you want to remove the list bullet, you can do so using CSS.  
