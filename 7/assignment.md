@@ -11,14 +11,16 @@ The HTML page should consist of a title, one button for adding tasks, a correlat
 
 When the user enters the page, the input file shall automatically get the focus.
 
-Connect your HTML page with the JavaScript file. The rest of the task should be done in the JavaScript file.
+Connect your HTML page with the JavaScript file. The rest of the task, except part 4, should be done in the JavaScript file.
+
+Hint: The button and input field could both be input elements, where the input element with type set to submit acts as the button.
 
 ## Part 2: Implementing Functionalities (20%)
 Now we (read: you) will start to implement some functionality.
 
 When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript function named "addTask()" that does this. Place the newest task on the top of the list.
 
-Hint: Use eventlisteners to listen on button clicks.
+Hint: Use eventlisteners to listen on button clicks.  
 Hinter: If you want to remove the list bullet, you can do so using CSS.  
 Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.
 
