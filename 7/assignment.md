@@ -34,11 +34,8 @@ The timestamp could be the number of milliseconds between 1 January 1970 00:00:0
 ## Part 4: Adding more Functionalities (25%)
 If the user checks the checkbox, the following should happen:
 * the task should have a line through it
-* the task should be moved below the tasks that are not completed
 
-Should the user uncheck the checkbox, the task should be reverted to it's default state (no line through and sorted with the uncompleted tasks).
-
-Hint: Use the timestamp as an ID for the task.  
+Should the user uncheck the checkbox, the task should be reverted to it's default state (no line through).
 
 ## Part 5: Making it Interactive (25%)
 We have not forgotten about the output element. Every time you update a task (check it, uncheck it or add it) the output element should be updated with the number of completed tasks and the number of tasks. E.g. if you have 7 tasks and 3 are completed, it should read '3/7 completed'.
