@@ -18,9 +18,9 @@ Now we (read: you) will start to implement some functionality.
 
 When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript functions named "addTask()" that does this.
 
-Hint: Use eventlisteners to listen on button clicks.
+Hint: Use eventlisteners to listen on button clicks.  
 Hinter: If you want to remove the list bullet, you can do so using CSS.  
-Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.
+Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.  
 
 ## Part 3: Storing Users' Activities (20%)
 Instead of just showing the tasks in the DOM, we also want to store them as an object, so that we can make changes to a task.
