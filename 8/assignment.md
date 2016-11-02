@@ -1,4 +1,4 @@
-# Asssignment 8: Canvas
+# Assignment 8: Canvas
 
 The Norwegian Tax Administration wants an easy way of visualizing the tax and income of superheros. In this exercise you are going to use the canvas element to create a bar chart from Javascript objects stored on a webserver.
 
